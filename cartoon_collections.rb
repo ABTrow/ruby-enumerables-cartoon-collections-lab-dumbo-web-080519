@@ -21,5 +21,5 @@ def find_the_cheese(arr)
   
   #nil
   
-  arr.find { |item| arr.include?(item) }
+  arr.find { |item| cheese_types.include?(item) }
 end
