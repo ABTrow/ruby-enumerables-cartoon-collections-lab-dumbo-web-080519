@@ -13,11 +13,13 @@ end
 def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  arr.length.times do |i|
-    if cheese_types.include?(arr[i])
-      return arr[i]
-    end
-  end
+  #arr.length.times do |i|
+  #  if cheese_types.include?(arr[i])
+  #    return arr[i]
+  #  end
+  #end
   
-  nil
+  #nil
+  
+  arr.find { |item| arr.include
 end
